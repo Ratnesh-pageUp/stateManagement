@@ -1,0 +1,54 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "first_name": "Sebastian",
+      "last_name": "Eschweiler",
+      "email": "sebastian@codingthesmartway.com"
+    },
+    {
+      "id": 2,
+      "first_name": "Steve",
+      "last_name": "Palmer",
+      "email": "steve@codingthesmartway.com"
+    },
+    {
+      "id": 3,
+      "first_name": "Ann",
+      "last_name": "Smith",
+      "email": "ann@codingthesmartway.com"
+    }
+  ],
+  "blogs": [
+    {
+      "id": 1,
+      "title": " Exploring the World: A Journey of a Lifetime",
+      "description": "Remember to include stunning visuals, practical advice, and engaging stories to capture the attention of your readers and inspire them to embark on their own travels. Happy blogging!"
+    },
+    {
+      "id": 2,
+      "title": "Wanderlust",
+      "description": "Welcome to Wanderlust Adventures, your go-to source for travel inspiration and tips. Follow us as we explore the world's hidden gems and share our experiences along the way"
+    },
+    {
+      "id": 3,
+      "title": "Start exploring",
+      "description": "Welcome to Nomad Tales, where we share our travel stories and tips. Join us as we journey around the world and discover new adventures."
+    },
+    {
+      "id": 4,
+      "title": "Roaming Wonders",
+      "description": " Roaming Wonders, where we explore the world and share our adventures with you. Follow us on our journey of discovery and inspiration."
+    },
+    {
+      "id": 5,
+      "title": "Adventures",
+      "description": " we share our adventures and experiences from around the world. Join us as we explore new destinations and cultures."
+    },
+    {
+      "id": 6,
+      "title": "beach holiday",
+      "description": "Qatar boasts more than 350 miles of unspoiled coastline, offering idyllic spots to enjoy the sunshine and relish the azure waters."
+    }
+  ]
+}

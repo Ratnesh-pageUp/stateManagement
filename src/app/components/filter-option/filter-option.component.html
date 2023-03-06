@@ -1,1 +1,16 @@
-<p>filter-option works!</p>
+<div>
+    <div class="md:flex w-Full md:w-fit md:space-x-6 bg-slate-200 p-2 rounded-md">
+        <div *ngIf="setting.search" class="border-0 flex justify-between t-mb-2 md:t-mb-0">
+            <input [(ngModel)]="searchKeyword" class="border-0 rounded-l-md p-2 w-full md:w-fit" placeholder="Search" type="text" name="" id="" />
+            <app-button (click)="onSearch()" title="search"/>        
+        </div>
+        <div *ngIf="setting.date" class="t-mb-2 md:t-mb-0 w-Full flex">
+            <input (change)="onDateChange()" [(ngModel)]="dateFrom" class="border-0 rounded-md p-2 w-full" type="date" name="" id="" />
+            <span class="border-0 p-2 text-lg font-normal">To</span>
+            <input (change)="onDateChange()" [(ngModel)]="dateTo" class="border-0 rounded-md p-2 w-full" type="date" name="" id="" />
+        </div>
+        <div *ngIf="setting.reset">
+            <app-button (click)="onReset()" title="Reset"/>
+        </div>
+    </div>
+</div>

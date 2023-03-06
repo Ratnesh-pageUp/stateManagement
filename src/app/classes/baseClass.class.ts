@@ -1,4 +1,5 @@
 export class BaseClass {
+  
   public isBusy: boolean = false;
   public hasError: boolean = false;
   public errorMessage: String = '';

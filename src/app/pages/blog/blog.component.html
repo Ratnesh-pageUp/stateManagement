@@ -1,1 +1,14 @@
-<p>blog works!</p>
+<app-container [loading]="isBusy">
+    <div class="row g-4">
+        <ng-container *ngIf="!isBusy && !hasError">
+            <ng-container *ngFor="let blog of allBlogs$|async;let i =index">
+                <div class="col-sm-4">
+                    <app-blog-item [title]="blog.title" [id]="blog.id" [description]="blog.description"></app-blog-item>
+                </div>
+            </ng-container>
+        </ng-container>
+    </div>
+    <div class="row p-3">
+        <!-- <button (click)="addBlog()" class="col-sm-2 btn btn-primary">Add blog</button> -->
+    </div>
+</app-container>

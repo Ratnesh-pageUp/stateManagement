@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { FilterOptionSetting } from './components/filter-option/filter-option.component';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,16 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'stateManagement';
+
+  public filterOptionSetting:FilterOptionSetting={reset:true,search:true,date:true}
+
+  reset(){
+    console.log("reset")
+  }
+  search(event:string){
+    console.log("submit",event)
+  }
+  dateChange(event:object){
+    console.log("submit",event)
+  }
 }
